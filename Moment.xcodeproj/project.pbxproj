@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068C589829614DA4A65826B2 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6969C291685696C572653B4 /* TodayView.swift */; };
+		097DEE6DE9434FFB881CFA0E /* MomentShared in Frameworks */ = {isa = PBXBuildFile; productRef = 106C9EE6884CD856128F1F58 /* MomentShared */; };
+		13CB25D1C62E20B7B97FA803 /* MomentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D94C4E2F5CB17C4AA28A09 /* MomentTests.swift */; };
+		14EB10DF7FF5CB6152B6585B /* MomentWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2AC7E8B2EEB49CB0499BBD81 /* MomentWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		20E64CE0ECD2A4F492FACF3A /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD3C287D50E1D1A6AEADA75 /* InsightsView.swift */; };
+		2ACBB1BE1AA0DD877C25F2B4 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED5101BA80946DBA5FE709 /* HealthKitManager.swift */; };
+		3B23EE1DD99E27761AF8255B /* MomentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C477162AC055578AED4978 /* MomentUITests.swift */; };
+		3F2CB02165BE86FD6D7E0FB9 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FC13E1D6D146B9783118A1 /* DashboardViewModel.swift */; };
+		476D5A084D3A5BA9ED132F7E /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54ECDEF4CC7BF6E3F4B3AA91 /* AIService.swift */; };
+		5897357D408942B8B4325112 /* SnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5871A0822B4B97F05993EC /* SnapshotStore.swift */; };
+		6C305244AC139E93B4C7CE3C /* MomentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEE9CA21EEB507640D0AACB /* MomentApp.swift */; };
+		8B39364832B1574B96968C96 /* MomentShared in Frameworks */ = {isa = PBXBuildFile; productRef = FA71ABCBDF95FABF0A3E2164 /* MomentShared */; };
+		BFC4A336D85AAB1DACF67F8F /* MomentWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76887B1A637352EA3C8AB228 /* MomentWatchApp.swift */; };
+		E3DF6E68201CAE5B7E90C691 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4800BA318A0E519235D0EC5 /* ProfileView.swift */; };
+		E8346510E26E38BE80068B69 /* AskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A59E7785C0F27A9989618 /* AskView.swift */; };
+		FB3BF2453B37B7AE23E93E0B /* MomentShared in Frameworks */ = {isa = PBXBuildFile; productRef = 04DB1C1ACB64D11D1D9F3F46 /* MomentShared */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2873A363FED9E0BDA58F717 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03315C3312CAE6422B20B4BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2137DA1CB15FF45AD7CAFA;
+			remoteInfo = Moment;
+		};
+		C69DF7956263E19D6A9F03F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03315C3312CAE6422B20B4BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E85350761A97B45A1A0DA8EB;
+			remoteInfo = MomentWatch;
+		};
+		C96EE616E155689AABB89F83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03315C3312CAE6422B20B4BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2137DA1CB15FF45AD7CAFA;
+			remoteInfo = Moment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E3569C7B91F59C16B5AED08C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				14EB10DF7FF5CB6152B6585B /* MomentWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0AD3C287D50E1D1A6AEADA75 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		21D94C4E2F5CB17C4AA28A09 /* MomentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentTests.swift; sourceTree = "<group>"; };
+		2AC7E8B2EEB49CB0499BBD81 /* MomentWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomentWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E5871A0822B4B97F05993EC /* SnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotStore.swift; sourceTree = "<group>"; };
+		54ECDEF4CC7BF6E3F4B3AA91 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		5B6A59E7785C0F27A9989618 /* AskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskView.swift; sourceTree = "<group>"; };
+		600CBE800969B54DA4E09BB7 /* MomentShared */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MomentShared; path = MomentShared; sourceTree = SOURCE_ROOT; };
+		76887B1A637352EA3C8AB228 /* MomentWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentWatchApp.swift; sourceTree = "<group>"; };
+		86C477162AC055578AED4978 /* MomentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentUITests.swift; sourceTree = "<group>"; };
+		86ED5101BA80946DBA5FE709 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		A6969C291685696C572653B4 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		AA312F7CF13A45210C319786 /* MomentUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4800BA318A0E519235D0EC5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DEEE9CA21EEB507640D0AACB /* MomentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentApp.swift; sourceTree = "<group>"; };
+		E1E8CEDD7465D45713550303 /* Moment.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Moment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7779BA1ADA3F4DA139A35A9 /* Moment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moment.entitlements; sourceTree = "<group>"; };
+		F2FC13E1D6D146B9783118A1 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		F858AD71BDB10A9250150135 /* MomentTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580F97C19E5CC0FE252387BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097DEE6DE9434FFB881CFA0E /* MomentShared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCECDAF16C3F0EEEBB58EA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39364832B1574B96968C96 /* MomentShared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57581D652D771C9CD9B9F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3BF2453B37B7AE23E93E0B /* MomentShared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CBA88FB10E5E0A3C27800BA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				54ECDEF4CC7BF6E3F4B3AA91 /* AIService.swift */,
+				86ED5101BA80946DBA5FE709 /* HealthKitManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		38C96AEBDFEDBCFBEFC3B8E5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3E5871A0822B4B97F05993EC /* SnapshotStore.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		45F30784F3E6C07CFAD5DC4A /* MomentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86C477162AC055578AED4978 /* MomentUITests.swift */,
+			);
+			path = MomentUITests;
+			sourceTree = "<group>";
+		};
+		496C2DD4F4A2AF5806A0B4F2 = {
+			isa = PBXGroup;
+			children = (
+				6AFDA89A7EE515949C93DE01 /* Moment */,
+				E6E7FEA00AD9376E573A309B /* MomentTests */,
+				45F30784F3E6C07CFAD5DC4A /* MomentUITests */,
+				AFDE0DFCDF465382E8B39EF4 /* MomentWatch */,
+				5B27E70B85094F04D84F6B20 /* Packages */,
+				B623A97A9744CB4F418D8ED6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B27E70B85094F04D84F6B20 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				600CBE800969B54DA4E09BB7 /* MomentShared */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		6AFDA89A7EE515949C93DE01 /* Moment */ = {
+			isa = PBXGroup;
+			children = (
+				E7779BA1ADA3F4DA139A35A9 /* Moment.entitlements */,
+				77F29D9487DF1BB0B8CD2B64 /* App */,
+				38C96AEBDFEDBCFBEFC3B8E5 /* Data */,
+				74CEEAB065428D191323FE44 /* Features */,
+				2CBA88FB10E5E0A3C27800BA /* Services */,
+			);
+			path = Moment;
+			sourceTree = "<group>";
+		};
+		74CEEAB065428D191323FE44 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5B6A59E7785C0F27A9989618 /* AskView.swift */,
+				F2FC13E1D6D146B9783118A1 /* DashboardViewModel.swift */,
+				0AD3C287D50E1D1A6AEADA75 /* InsightsView.swift */,
+				C4800BA318A0E519235D0EC5 /* ProfileView.swift */,
+				A6969C291685696C572653B4 /* TodayView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		77F29D9487DF1BB0B8CD2B64 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE9CA21EEB507640D0AACB /* MomentApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AFDE0DFCDF465382E8B39EF4 /* MomentWatch */ = {
+			isa = PBXGroup;
+			children = (
+				76887B1A637352EA3C8AB228 /* MomentWatchApp.swift */,
+			);
+			path = MomentWatch;
+			sourceTree = "<group>";
+		};
+		B623A97A9744CB4F418D8ED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1E8CEDD7465D45713550303 /* Moment.app */,
+				F858AD71BDB10A9250150135 /* MomentTests.xctest */,
+				AA312F7CF13A45210C319786 /* MomentUITests.xctest */,
+				2AC7E8B2EEB49CB0499BBD81 /* MomentWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E7FEA00AD9376E573A309B /* MomentTests */ = {
+			isa = PBXGroup;
+			children = (
+				21D94C4E2F5CB17C4AA28A09 /* MomentTests.swift */,
+			);
+			path = MomentTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B2137DA1CB15FF45AD7CAFA /* Moment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4599A62EB6CE67ADD57A41C6 /* Build configuration list for PBXNativeTarget "Moment" */;
+			buildPhases = (
+				81846BF455D53EFF3DE04C22 /* Sources */,
+				BCECDAF16C3F0EEEBB58EA3D /* Frameworks */,
+				E3569C7B91F59C16B5AED08C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49406FE9EFD8F50BAE6F948A /* PBXTargetDependency */,
+			);
+			name = Moment;
+			packageProductDependencies = (
+				FA71ABCBDF95FABF0A3E2164 /* MomentShared */,
+			);
+			productName = Moment;
+			productReference = E1E8CEDD7465D45713550303 /* Moment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3D1FD509DD4C47979D5955F /* MomentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC53ACF279A305023DE5413 /* Build configuration list for PBXNativeTarget "MomentTests" */;
+			buildPhases = (
+				2DA8695AF0D9B5FD357BC6A9 /* Sources */,
+				580F97C19E5CC0FE252387BB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B61BC81584A43E8940A4F1 /* PBXTargetDependency */,
+			);
+			name = MomentTests;
+			packageProductDependencies = (
+				106C9EE6884CD856128F1F58 /* MomentShared */,
+			);
+			productName = MomentTests;
+			productReference = F858AD71BDB10A9250150135 /* MomentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E85350761A97B45A1A0DA8EB /* MomentWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0790F60332CA0C9990C90288 /* Build configuration list for PBXNativeTarget "MomentWatch" */;
+			buildPhases = (
+				4113430AACD523E4A93ECE94 /* Sources */,
+				C57581D652D771C9CD9B9F95 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomentWatch;
+			packageProductDependencies = (
+				04DB1C1ACB64D11D1D9F3F46 /* MomentShared */,
+			);
+			productName = MomentWatch;
+			productReference = 2AC7E8B2EEB49CB0499BBD81 /* MomentWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC23BA258D5AD09EA60187F3 /* MomentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00078A12DF3522717FE857F /* Build configuration list for PBXNativeTarget "MomentUITests" */;
+			buildPhases = (
+				7227C2CA41E6351511BFFE94 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FCF81DE16F051E5EE0571F8 /* PBXTargetDependency */,
+			);
+			name = MomentUITests;
+			packageProductDependencies = (
+			);
+			productName = MomentUITests;
+			productReference = AA312F7CF13A45210C319786 /* MomentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03315C3312CAE6422B20B4BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0B2137DA1CB15FF45AD7CAFA = {
+						ProvisioningStyle = Automatic;
+					};
+					D3D1FD509DD4C47979D5955F = {
+						ProvisioningStyle = Automatic;
+					};
+					E85350761A97B45A1A0DA8EB = {
+						ProvisioningStyle = Automatic;
+					};
+					EC23BA258D5AD09EA60187F3 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0B2137DA1CB15FF45AD7CAFA;
+					};
+				};
+			};
+			buildConfigurationList = F2973E4D1D33928994C5CB4E /* Build configuration list for PBXProject "Moment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 496C2DD4F4A2AF5806A0B4F2;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BF6EAB9C04DF4596DC4D075E /* XCLocalSwiftPackageReference "MomentShared" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B623A97A9744CB4F418D8ED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B2137DA1CB15FF45AD7CAFA /* Moment */,
+				E85350761A97B45A1A0DA8EB /* MomentWatch */,
+				D3D1FD509DD4C47979D5955F /* MomentTests */,
+				EC23BA258D5AD09EA60187F3 /* MomentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DA8695AF0D9B5FD357BC6A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CB25D1C62E20B7B97FA803 /* MomentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4113430AACD523E4A93ECE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC4A336D85AAB1DACF67F8F /* MomentWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7227C2CA41E6351511BFFE94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B23EE1DD99E27761AF8255B /* MomentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81846BF455D53EFF3DE04C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476D5A084D3A5BA9ED132F7E /* AIService.swift in Sources */,
+				E8346510E26E38BE80068B69 /* AskView.swift in Sources */,
+				3F2CB02165BE86FD6D7E0FB9 /* DashboardViewModel.swift in Sources */,
+				2ACBB1BE1AA0DD877C25F2B4 /* HealthKitManager.swift in Sources */,
+				20E64CE0ECD2A4F492FACF3A /* InsightsView.swift in Sources */,
+				6C305244AC139E93B4C7CE3C /* MomentApp.swift in Sources */,
+				E3DF6E68201CAE5B7E90C691 /* ProfileView.swift in Sources */,
+				5897357D408942B8B4325112 /* SnapshotStore.swift in Sources */,
+				068C589829614DA4A65826B2 /* TodayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49406FE9EFD8F50BAE6F948A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E85350761A97B45A1A0DA8EB /* MomentWatch */;
+			targetProxy = C69DF7956263E19D6A9F03F9 /* PBXContainerItemProxy */;
+		};
+		4FCF81DE16F051E5EE0571F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B2137DA1CB15FF45AD7CAFA /* Moment */;
+			targetProxy = B2873A363FED9E0BDA58F717 /* PBXContainerItemProxy */;
+		};
+		50B61BC81584A43E8940A4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B2137DA1CB15FF45AD7CAFA /* Moment */;
+			targetProxy = C96EE616E155689AABB89F83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		207A16ED418047566F5F2A9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skeeb32.MomentUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moment;
+			};
+			name = Release;
+		};
+		38F2FB74FFABBFD96ED07027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Moment/Moment.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = MOMENT;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "MOMENT reads your daily steps to display your activity summary on your iPhone and paired Apple Watch. Your data stays on your devices.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skeeb32.moment;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		433867C74E87B62B0B816946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		4910AF1C8805CBDD06B47B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skeeb32.MomentTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moment.app/Moment";
+			};
+			name = Release;
+		};
+		64CA4EBC0E7FAB8695F5D039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_KEY_CFBundleDisplayName = MOMENT;
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.skeeb32.moment;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skeeb32.moment.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		9D746535C978ED8AA98CCDB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skeeb32.MomentUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moment;
+			};
+			name = Debug;
+		};
+		A97030069F54FF3D05236D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_KEY_CFBundleDisplayName = MOMENT;
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.skeeb32.moment;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skeeb32.moment.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		D8A34FB04DAFF9C0B3013E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Moment/Moment.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = MOMENT;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "MOMENT reads your daily steps to display your activity summary on your iPhone and paired Apple Watch. Your data stays on your devices.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skeeb32.moment;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E815A752DDC2622557B0F879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F6093371FEBD9295B4E90B39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skeeb32.MomentTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moment.app/Moment";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0790F60332CA0C9990C90288 /* Build configuration list for PBXNativeTarget "MomentWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CA4EBC0E7FAB8695F5D039 /* Debug */,
+				A97030069F54FF3D05236D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3BC53ACF279A305023DE5413 /* Build configuration list for PBXNativeTarget "MomentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6093371FEBD9295B4E90B39 /* Debug */,
+				4910AF1C8805CBDD06B47B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4599A62EB6CE67ADD57A41C6 /* Build configuration list for PBXNativeTarget "Moment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A34FB04DAFF9C0B3013E23 /* Debug */,
+				38F2FB74FFABBFD96ED07027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F00078A12DF3522717FE857F /* Build configuration list for PBXNativeTarget "MomentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D746535C978ED8AA98CCDB2 /* Debug */,
+				207A16ED418047566F5F2A9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F2973E4D1D33928994C5CB4E /* Build configuration list for PBXProject "Moment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E815A752DDC2622557B0F879 /* Debug */,
+				433867C74E87B62B0B816946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BF6EAB9C04DF4596DC4D075E /* XCLocalSwiftPackageReference "MomentShared" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MomentShared;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04DB1C1ACB64D11D1D9F3F46 /* MomentShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MomentShared;
+		};
+		106C9EE6884CD856128F1F58 /* MomentShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MomentShared;
+		};
+		FA71ABCBDF95FABF0A3E2164 /* MomentShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MomentShared;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 03315C3312CAE6422B20B4BD /* Project object */;
+}
